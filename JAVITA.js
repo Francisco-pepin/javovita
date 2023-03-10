@@ -16,5 +16,3 @@ alert('ALTO AHI!! sigue navegando')
 	}else{
 		mayor = n3;
 	}
-
-	document.write("El mayor es "+mayor);
