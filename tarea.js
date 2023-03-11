@@ -1,5 +1,6 @@
-alert("OYE, HICISTE LA TAREA? ");
+
 var res;
+res = parseInt(prompt("OYE, HICISTE LA TAREA? "));
 if (res="si"){
     alert("MUY BIEN BRO, FELICIDADES");
 }
