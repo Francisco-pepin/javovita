@@ -1,9 +1,13 @@
-
-var res;
-res = parseInt(prompt("OYE, HICISTE LA TAREA? "));
+function ejercicio1(){
+var res = ' ';
+res = prompt("OYE, HICISTE LA TAREA? ").toUpperCase();
 if (res="si"){
     alert("MUY BIEN BRO, FELICIDADES");
 }
-else {
+else if (res="no"){
     alert("HAZLA DE UNA VEZ, ANTES DE QUE SEA TARDE");
+}
+else{
+    alert("INTENTA DE NUEVO")
+}
 }
