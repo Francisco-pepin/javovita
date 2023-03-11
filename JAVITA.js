@@ -16,3 +16,5 @@ alert('ALTO AHI!! sigue navegando')
 	}else{
 		mayor = n3;
 	}
+
+	alert("EL NUMERO MAYOR ES:"	+mayor);
