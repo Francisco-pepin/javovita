@@ -1,4 +1,4 @@
-function ejercicio1(){
+function TAREA(){
 var res = ' ';
 res = prompt("OYE, HICISTE LA TAREA? ").toUpperCase();
 if (res="si"){
