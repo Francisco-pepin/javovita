@@ -1,13 +1,18 @@
-function TAREA(){
-var res = ' ';
-res = prompt("OYE, HICISTE LA TAREA? ").toUpperCase();
-if (res="si"){
-    alert("MUY BIEN BRO, FELICIDADES");
-}
-else if (res="no"){
-    alert("HAZLA DE UNA VEZ, ANTES DE QUE SEA TARDE");
-}
-else{
-    alert("INTENTA DE NUEVO")
-}
-}
+var respuesta = ' ';
+    respuesta = prompt ("¿Hiciste la tarea?").toUpperCase();
+    
+    if (respuesta == "SI")
+    {
+        alert("¡Bien hecho!");
+        console.log("¡Bien hecho!");
+    }
+    else if (respuesta == "NO")
+    {
+        alert("No te rindas, ¡empieza ya mismo!");
+        console.log("No te rindas, ¡empieza ya mismo!");
+    }
+    else
+    {
+        alert("Intente de nuevo");
+        console.log("Intente de nuevo");
+    }
