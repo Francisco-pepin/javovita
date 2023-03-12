@@ -1,15 +1,15 @@
 var respuesta = ' ';
-    respuesta = prompt ("¿Hiciste la tarea?").toUpperCase();
+    respuesta = prompt ("HEY BRO, ¿Hiciste la tarea?").toUpperCase();
     
     if (respuesta == "SI")
     {
-        alert("¡Bien hecho!");
-        console.log("¡Bien hecho!");
+        alert("¡FELICIDADES ! ¡Bien hecho!");
+        console.log("¡FELICIDADES!¡Bien hecho!");
     }
     else if (respuesta == "NO")
     {
-        alert("No te rindas, ¡empieza ya mismo!");
-        console.log("No te rindas, ¡empieza ya mismo!");
+        alert("BRO, No te rindas, ¡empieza ya mismo!");
+        console.log("BRO, No te rindas, ¡empieza ya mismo!");
     }
     else
     {
