@@ -1,7 +1,7 @@
 
 	var centi, fare;
 
-	centi = parseFloat(prompt("Ingresa grados centígrados"));
-	fare = (9/5*centi)+32;
+	fare = parseFloat(prompt("Ingresa grados farenheit"));
+	centi = (fare-32)*5/9;
 
-	alert(centi+" centígrados equivalen a "+fare+" farenheit");
+	alert(fare+" grados farenheit equivalen a "+centi+" celcius");
