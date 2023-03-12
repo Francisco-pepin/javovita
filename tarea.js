@@ -1,4 +1,4 @@
-function TAREA(){
+function tarea(){
 var res = ' ';
 res = prompt("OYE, HICISTE LA TAREA? ").toUpperCase();
 if (res="si"){
