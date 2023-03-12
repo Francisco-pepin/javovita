@@ -1,4 +1,4 @@
-alert('ALTO AHI!! sigue navegando')
+alert('INGRESA 3 NUMEROS DIFERENTES Y SABRAS EL MAYOR DE ELLOS')
 
     var n1,n2,n3,t,mayor;
 	n1 = parseInt(prompt("Número 1"));
@@ -17,4 +17,4 @@ alert('ALTO AHI!! sigue navegando')
 		mayor = n3;
 	}
 
-	alert("EL NUMERO MAYOR ES:"	+mayor);
+	alert("EL NUMERO MAYOR ES: "	+mayor);
